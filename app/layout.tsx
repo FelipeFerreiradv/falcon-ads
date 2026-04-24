@@ -110,9 +110,19 @@ const jsonLd = [
     description,
     slogan: "Estratégia. Tráfego. Resultados.",
     areaServed: { "@type": "Country", name: "Brasil" },
+    telephone: "+5555999655995",
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        telephone: "+5555999655995",
+        contactType: "sales",
+        areaServed: "BR",
+        availableLanguage: ["pt-BR", "Portuguese"],
+      },
+    ],
     sameAs: [
-      "https://instagram.com/[INSTAGRAM]",
-      "https://wa.me/[NÚMERO DO WHATSAPP]",
+      "https://www.instagram.com/falconadss/",
+      "https://wa.me/5555999655995",
     ],
   },
   {

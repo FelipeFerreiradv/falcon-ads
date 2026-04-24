@@ -1,7 +1,7 @@
 "use client";
 
 const finalCtaStyles = {
-  wa: "https://wa.me/[NÚMERO DO WHATSAPP]?text=Quero+transformar+meu+site+em+uma+m%C3%A1quina+de+oportunidades",
+  wa: "https://wa.me/5555999655995?text=Ol%C3%A1!%20Quero%20transformar%20meu%20site%20em%20uma%20m%C3%A1quina%20de%20oportunidades%20com%20a%20Falcon%20Ads.",
 };
 
 export default function FinalCTA() {

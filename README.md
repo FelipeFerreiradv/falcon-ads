@@ -52,15 +52,10 @@ falcon ads/
 └── postcss.config.mjs
 ```
 
-## Placeholders a preencher
+## Contatos (já configurados)
 
-Procure no código e substitua pelos valores reais:
-
-- `[NÚMERO DO WHATSAPP]` — usado em todos os CTAs e no footer.
-- `[INSTAGRAM]` — footer.
-- `[E-MAIL]` — footer.
-- `[INVESTIMENTO LANDING PAGE]` — card de oferta Landing Page.
-- `[INVESTIMENTO SITE INSTITUCIONAL]` — card de oferta Site Institucional.
+- **WhatsApp:** (55) 99965-5995 — mensagens personalizadas por CTA (Nav, Hero, Service, FinalCTA, Footer) linkando `https://wa.me/5555999655995` com `?text=...` adaptado.
+- **Instagram:** [@falconadss](https://www.instagram.com/falconadss/)
 
 A logo da Falcon Ads foi **recriada em SVG inline** em `components/FalconLogo.tsx` usando a paleta azul / verde / amarelo da identidade. Se quiser substituir por uma versão mais fiel ao arquivo original, basta editar o SVG desse componente.
 

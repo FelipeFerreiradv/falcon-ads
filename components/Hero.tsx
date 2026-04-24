@@ -4,7 +4,7 @@ import type { CSSProperties } from "react";
 import { useMagnetic, useTilt } from "@/lib/hooks";
 
 const heroStyles = {
-  wa: "https://wa.me/[NÚMERO DO WHATSAPP]?text=Ol%C3%A1%2C+quero+um+site+Falcon+Ads",
+  wa: "https://wa.me/5555999655995?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Falcon%20Ads%20e%20quero%20um%20site%20que%20gere%20mais%20clientes.",
 };
 
 export default function Hero() {

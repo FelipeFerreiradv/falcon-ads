@@ -3,7 +3,8 @@
 import type { ReactNode } from "react";
 
 const serviceStyles = {
-  wa: "https://wa.me/[NÚMERO DO WHATSAPP]?text=Ol%C3%A1%2C+quero+uma+proposta+Falcon+Ads",
+  waLanding: "https://wa.me/5555999655995?text=Ol%C3%A1!%20Quero%20uma%20proposta%20de%20Landing%20Page%20da%20Falcon%20Ads.",
+  waInstitucional: "https://wa.me/5555999655995?text=Ol%C3%A1!%20Quero%20uma%20proposta%20de%20Site%20Institucional%20da%20Falcon%20Ads.",
 };
 
 type IconProps = { d: string; d2?: string; fill?: boolean };
@@ -91,17 +92,17 @@ export default function Service() {
               entrar rápido no digital, validar uma oferta, gerar contatos ou
               ter uma página objetiva para vender.
             </p>
-            <div className="price">
-              <b>Investimento:</b>
-              <span className="ph">[INVESTIMENTO LANDING PAGE]</span>
-            </div>
             <a
-              href={serviceStyles.wa}
+              href={serviceStyles.waLanding}
               className="btn btn-ghost"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Pedir proposta de Landing Page via WhatsApp"
             >
               Pedir proposta
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+              </svg>
             </a>
           </article>
 
@@ -133,15 +134,12 @@ export default function Service() {
               consolidar marca, transmitir autoridade e ter uma presença
               digital mais robusta.
             </p>
-            <div className="price">
-              <b>Investimento:</b>
-              <span className="ph">[INVESTIMENTO SITE INSTITUCIONAL]</span>
-            </div>
             <a
-              href={serviceStyles.wa}
+              href={serviceStyles.waInstitucional}
               className="btn btn-primary"
               target="_blank"
               rel="noopener noreferrer"
+              aria-label="Pedir proposta de Site Institucional via WhatsApp"
             >
               Quero esta estrutura
               <svg width="14" height="14" viewBox="0 0 24 24" fill="none" aria-hidden="true">

@@ -3,9 +3,10 @@
 import FalconLogo from "./FalconLogo";
 
 const footerStyles = {
-  wa: "https://wa.me/[NÚMERO DO WHATSAPP]",
-  ig: "https://instagram.com/[INSTAGRAM]",
-  email: "mailto:[E-MAIL]",
+  wa: "https://wa.me/5555999655995?text=Ol%C3%A1!%20Vim%20pelo%20site%20da%20Falcon%20Ads.",
+  waLabel: "(55) 99965-5995",
+  ig: "https://www.instagram.com/falconadss/",
+  igLabel: "@falconadss",
   cols: [
     {
       title: "Serviços",
@@ -58,17 +59,24 @@ export default function Footer() {
             <h4>Contato</h4>
             <ul>
               <li>
-                <a href={footerStyles.wa} target="_blank" rel="noopener noreferrer">
-                  WhatsApp: [NÚMERO DO WHATSAPP]
+                <a
+                  href={footerStyles.wa}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="WhatsApp Falcon Ads"
+                >
+                  WhatsApp: {footerStyles.waLabel}
                 </a>
               </li>
               <li>
-                <a href={footerStyles.ig} target="_blank" rel="noopener noreferrer">
-                  Instagram: [INSTAGRAM]
+                <a
+                  href={footerStyles.ig}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram Falcon Ads"
+                >
+                  Instagram: {footerStyles.igLabel}
                 </a>
-              </li>
-              <li>
-                <a href={footerStyles.email}>E-mail: [E-MAIL]</a>
               </li>
             </ul>
           </div>
