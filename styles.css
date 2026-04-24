@@ -251,19 +251,13 @@ img, svg { display: block; max-width: 100%; }
   to { transform: scaleX(1); }
 }
 
-.reveal { opacity: 1; }
-@supports (animation-timeline: view()) {
-  .reveal {
-    animation: revealIn 1 linear both;
-    animation-timeline: view();
-    animation-range: entry 0% cover 30%;
-    will-change: opacity, transform;
-  }
+.reveal {
+  opacity: 0;
+  transform: translateY(18px);
+  transition: opacity .75s var(--ease), transform .75s var(--ease);
+  will-change: opacity, transform;
 }
-@keyframes revealIn {
-  from { opacity: 0; transform: translateY(18px); }
-  to { opacity: 1; transform: none; }
-}
+.reveal.in { opacity: 1; transform: none; }
 
 /* staggered list-item animation */
 .stagger-item {
@@ -378,16 +372,6 @@ img, svg { display: block; max-width: 100%; }
   background: linear-gradient(90deg, var(--accent) 0%, var(--accent-2) 55%, var(--accent-3) 100%);
   box-shadow: 0 2px 18px color-mix(in srgb, var(--accent) 50%, transparent);
   will-change: transform;
-}
-@supports (animation-timeline: scroll()) {
-  .scroll-progress {
-    animation: scrollProgress linear both;
-    animation-timeline: scroll(root);
-  }
-}
-@keyframes scrollProgress {
-  from { transform: scaleX(0); }
-  to { transform: scaleX(1); }
 }
 
 section { padding: clamp(72px, 10vw, 128px) 0; position: relative; }

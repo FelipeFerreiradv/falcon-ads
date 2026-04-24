@@ -6,7 +6,6 @@ export default function ScrollProgress() {
   const ref = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (typeof CSS !== "undefined" && CSS.supports("animation-timeline", "scroll()")) return;
     const el = ref.current;
     if (!el) return;
     let raf = 0;
