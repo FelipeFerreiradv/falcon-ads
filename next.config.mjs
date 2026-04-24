@@ -5,6 +5,7 @@ const nextConfig = {
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
   experimental: {
+    optimizeCss: true,
     optimizePackageImports: ["react", "react-dom"],
   },
   async headers() {

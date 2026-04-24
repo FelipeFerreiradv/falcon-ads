@@ -1,5 +1,3 @@
-"use client";
-
 const marqueeStyles = {
   keywords: [
     "Estratégia digital",

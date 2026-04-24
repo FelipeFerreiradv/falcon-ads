@@ -1,5 +1,3 @@
-"use client";
-
 import FalconLogo from "./FalconLogo";
 
 const footerStyles = {

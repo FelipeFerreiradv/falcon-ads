@@ -232,6 +232,7 @@ export default function RootLayout({
       <head>
         <link rel="dns-prefetch" href="https://wa.me" />
         <link rel="preconnect" href="https://wa.me" crossOrigin="anonymous" />
+        <link rel="dns-prefetch" href="https://www.instagram.com" />
         <meta name="format-detection" content="telephone=no" />
         <script
           type="application/ld+json"

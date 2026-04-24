@@ -1,9 +1,3 @@
-"use client";
-
-const pullBandStyles = {
-  text: "Seu site não deve ser apenas uma vitrine. Ele deve ser o primeiro vendedor da sua empresa.",
-};
-
 export default function PullBand() {
   return (
     <section className="pullband">

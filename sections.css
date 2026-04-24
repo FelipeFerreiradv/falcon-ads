@@ -569,9 +569,6 @@
 .svc-offer li { display: grid; grid-template-columns: 18px 1fr; gap: 10px; font-size: 14px; color: var(--text-1); }
 .svc-offer li svg { margin-top: 3px; color: var(--accent-2); }
 .svc-offer .ideal { font-size: 13px; color: var(--text-2); padding-top: 14px; border-top: 1px dashed var(--border); }
-.svc-offer .price { margin-top: 4px; display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
-.svc-offer .price b { font-size: 1.2rem; color: #fff; font-weight: 800; }
-.svc-offer .price .ph { font-size: 12px; color: var(--text-2); }
 .svc-offer .btn { margin-top: 8px; width: 100%; }
 @media (max-width: 860px) {
   .svc-top { grid-template-columns: 1fr; }
