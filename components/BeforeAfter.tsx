@@ -27,7 +27,7 @@ const beforeAfterStyles = {
 type Bar = { label: string; value: number };
 
 function BarRow({ bar, active, delay }: { bar: Bar; active: boolean; delay: number }) {
-  const value = useCountUp(bar.value, active, 1400 + delay, 0);
+  const value = useCountUp(bar.value, active, 1400 + delay);
   return (
     <div className="ba-bar">
       <div className="lbl">

@@ -1,4 +1,3 @@
-import dynamic from "next/dynamic";
 import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Marquee from "@/components/Marquee";
@@ -15,10 +14,7 @@ import Footer from "@/components/Footer";
 import ScrollProgress from "@/components/ScrollProgress";
 import MouseGlow from "@/components/MouseGlow";
 import RevealObserver from "@/components/RevealObserver";
-
-const Tweaks = dynamic(() => import("@/components/Tweaks"), {
-  loading: () => null,
-});
+import TweaksMount from "@/components/TweaksMount";
 
 export default function Page() {
   return (
@@ -41,7 +37,7 @@ export default function Page() {
         <FinalCTA />
       </main>
       <Footer />
-      <Tweaks />
+      <TweaksMount />
     </>
   );
 }

@@ -4,6 +4,9 @@ const nextConfig = {
   compress: true,
   poweredByHeader: false,
   productionBrowserSourceMaps: false,
+  compiler: {
+    removeConsole: { exclude: ["error", "warn"] },
+  },
   experimental: {
     optimizeCss: true,
     optimizePackageImports: ["react", "react-dom"],
